@@ -7,39 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CB1CD3C1C3A63C900E6465A /* YYHallMarginCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD3B1C3A63C900E6465A /* YYHallMarginCell.m */; settings = {ASSET_TAGS = (); }; };
-		1CB1CD401C3A651700E6465A /* YYHallFocusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD3F1C3A651700E6465A /* YYHallFocusCell.m */; settings = {ASSET_TAGS = (); }; };
-		1CB1CD431C3A656000E6465A /* YYHallFocusCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD421C3A656000E6465A /* YYHallFocusCollectionCell.m */; settings = {ASSET_TAGS = (); }; };
-		1CB1CD461C3A659300E6465A /* YYLotteryChooseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD451C3A659300E6465A /* YYLotteryChooseModel.m */; settings = {ASSET_TAGS = (); }; };
-		1CB1CD491C3A65A400E6465A /* YYLotteryChooseGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD481C3A65A400E6465A /* YYLotteryChooseGroup.m */; settings = {ASSET_TAGS = (); }; };
-		1CB1CD4D1C3A65D500E6465A /* YYGuessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD4B1C3A65D500E6465A /* YYGuessCell.m */; settings = {ASSET_TAGS = (); }; };
-		1CB1CD4E1C3A65D500E6465A /* YYGuessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CB1CD4C1C3A65D500E6465A /* YYGuessCell.xib */; settings = {ASSET_TAGS = (); }; };
-		1CB1CD521C3A65FA00E6465A /* YYGuessBgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD501C3A65FA00E6465A /* YYGuessBgCell.m */; settings = {ASSET_TAGS = (); }; };
-		1CB1CD531C3A65FA00E6465A /* YYGuessBgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CB1CD511C3A65FA00E6465A /* YYGuessBgCell.xib */; settings = {ASSET_TAGS = (); }; };
-		1CB1CD561C3A662D00E6465A /* YYLotteryChooseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD551C3A662D00E6465A /* YYLotteryChooseCell.m */; settings = {ASSET_TAGS = (); }; };
-		1CB1CD591C3A664A00E6465A /* YYChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD581C3A664A00E6465A /* YYChooseView.m */; settings = {ASSET_TAGS = (); }; };
-		1CB1CD5B1C3A665F00E6465A /* YYChooseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CB1CD5A1C3A665F00E6465A /* YYChooseView.xib */; settings = {ASSET_TAGS = (); }; };
-		1CB1CD5D1C3A780200E6465A /* List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB1CD5C1C3A780200E6465A /* List.plist */; settings = {ASSET_TAGS = (); }; };
-		1CD096D51C3B557A00943F08 /* YYSportsAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD096D41C3B557A00943F08 /* YYSportsAreaView.m */; settings = {ASSET_TAGS = (); }; };
-		1CD096D81C3B562400943F08 /* YYSportsAreaNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD096D71C3B562400943F08 /* YYSportsAreaNavigationController.m */; settings = {ASSET_TAGS = (); }; };
-		1CD096DC1C3B5E7100943F08 /* YYDiscoveryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD096DB1C3B5E7100943F08 /* YYDiscoveryViewController.storyboard */; settings = {ASSET_TAGS = (); }; };
-		1CD096DF1C3B64A500943F08 /* YYGroupBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD096DE1C3B64A500943F08 /* YYGroupBuyViewController.m */; settings = {ASSET_TAGS = (); }; };
-		1CD096E21C3B64D200943F08 /* YYTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD096E11C3B64D200943F08 /* YYTitleButton.m */; settings = {ASSET_TAGS = (); }; };
-		1CD096E51C3B656600943F08 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD096E41C3B656600943F08 /* UIView+Frame.m */; settings = {ASSET_TAGS = (); }; };
+		1CB1CD3C1C3A63C900E6465A /* YYHallMarginCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD3B1C3A63C900E6465A /* YYHallMarginCell.m */; };
+		1CB1CD401C3A651700E6465A /* YYHallFocusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD3F1C3A651700E6465A /* YYHallFocusCell.m */; };
+		1CB1CD431C3A656000E6465A /* YYHallFocusCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD421C3A656000E6465A /* YYHallFocusCollectionCell.m */; };
+		1CB1CD461C3A659300E6465A /* YYLotteryChooseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD451C3A659300E6465A /* YYLotteryChooseModel.m */; };
+		1CB1CD491C3A65A400E6465A /* YYLotteryChooseGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD481C3A65A400E6465A /* YYLotteryChooseGroup.m */; };
+		1CB1CD4D1C3A65D500E6465A /* YYGuessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD4B1C3A65D500E6465A /* YYGuessCell.m */; };
+		1CB1CD4E1C3A65D500E6465A /* YYGuessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CB1CD4C1C3A65D500E6465A /* YYGuessCell.xib */; };
+		1CB1CD521C3A65FA00E6465A /* YYGuessBgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD501C3A65FA00E6465A /* YYGuessBgCell.m */; };
+		1CB1CD531C3A65FA00E6465A /* YYGuessBgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CB1CD511C3A65FA00E6465A /* YYGuessBgCell.xib */; };
+		1CB1CD561C3A662D00E6465A /* YYLotteryChooseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD551C3A662D00E6465A /* YYLotteryChooseCell.m */; };
+		1CB1CD591C3A664A00E6465A /* YYChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1CD581C3A664A00E6465A /* YYChooseView.m */; };
+		1CB1CD5B1C3A665F00E6465A /* YYChooseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CB1CD5A1C3A665F00E6465A /* YYChooseView.xib */; };
+		1CB1CD5D1C3A780200E6465A /* List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB1CD5C1C3A780200E6465A /* List.plist */; };
+		1CD096D51C3B557A00943F08 /* YYSportsAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD096D41C3B557A00943F08 /* YYSportsAreaView.m */; };
+		1CD096D81C3B562400943F08 /* YYSportsAreaNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD096D71C3B562400943F08 /* YYSportsAreaNavigationController.m */; };
+		1CD096DC1C3B5E7100943F08 /* YYDiscoveryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD096DB1C3B5E7100943F08 /* YYDiscoveryViewController.storyboard */; };
+		1CD096DF1C3B64A500943F08 /* YYGroupBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD096DE1C3B64A500943F08 /* YYGroupBuyViewController.m */; };
+		1CD096E21C3B64D200943F08 /* YYTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD096E11C3B64D200943F08 /* YYTitleButton.m */; };
+		1CD096E51C3B656600943F08 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD096E41C3B656600943F08 /* UIView+Frame.m */; };
 		1CFD2E191C34F36400BB196A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD2E181C34F36400BB196A /* Assets.xcassets */; };
 		1CFD2E271C34F36400BB196A /* NetEaseLotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E261C34F36400BB196A /* NetEaseLotteryTests.m */; };
 		1CFD2E321C34F36400BB196A /* NetEaseLotteryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E311C34F36400BB196A /* NetEaseLotteryUITests.m */; };
-		1CFD2E641C34FD7200BB196A /* YYMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E631C34FD7200BB196A /* YYMyLotteryViewController.m */; settings = {ASSET_TAGS = (); }; };
-		1CFD2E671C34FDCB00BB196A /* YYSportsAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E661C34FDCB00BB196A /* YYSportsAreaViewController.m */; settings = {ASSET_TAGS = (); }; };
-		1CFD2E6D1C34FE1800BB196A /* YYDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E6C1C34FE1800BB196A /* YYDiscoveryViewController.m */; settings = {ASSET_TAGS = (); }; };
-		1CFD2E701C34FE2C00BB196A /* YYAwardInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E6F1C34FE2C00BB196A /* YYAwardInfoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		1CFD2E731C35009300BB196A /* YYLotteryHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E721C35009300BB196A /* YYLotteryHallViewController.m */; settings = {ASSET_TAGS = (); }; };
-		1CFD2E891C3518F600BB196A /* YYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E811C3518F600BB196A /* YYNavigationController.m */; settings = {ASSET_TAGS = (); }; };
-		1CFD2E8A1C3518F600BB196A /* YYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E831C3518F600BB196A /* YYTabBarController.m */; settings = {ASSET_TAGS = (); }; };
-		1CFD2E8B1C3518F600BB196A /* YYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E861C3518F600BB196A /* YYTabBar.m */; settings = {ASSET_TAGS = (); }; };
-		1CFD2E8C1C3518F600BB196A /* YYTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E881C3518F600BB196A /* YYTabBarButton.m */; settings = {ASSET_TAGS = (); }; };
-		1CFD2E911C35191900BB196A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E8F1C35191900BB196A /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		1CFD2E921C35191900BB196A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E901C35191900BB196A /* main.m */; settings = {ASSET_TAGS = (); }; };
+		1CFD2E641C34FD7200BB196A /* YYMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E631C34FD7200BB196A /* YYMyLotteryViewController.m */; };
+		1CFD2E671C34FDCB00BB196A /* YYSportsAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E661C34FDCB00BB196A /* YYSportsAreaViewController.m */; };
+		1CFD2E6D1C34FE1800BB196A /* YYDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E6C1C34FE1800BB196A /* YYDiscoveryViewController.m */; };
+		1CFD2E701C34FE2C00BB196A /* YYAwardInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E6F1C34FE2C00BB196A /* YYAwardInfoViewController.m */; };
+		1CFD2E731C35009300BB196A /* YYLotteryHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E721C35009300BB196A /* YYLotteryHallViewController.m */; };
+		1CFD2E891C3518F600BB196A /* YYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E811C3518F600BB196A /* YYNavigationController.m */; };
+		1CFD2E8A1C3518F600BB196A /* YYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E831C3518F600BB196A /* YYTabBarController.m */; };
+		1CFD2E8B1C3518F600BB196A /* YYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E861C3518F600BB196A /* YYTabBar.m */; };
+		1CFD2E8C1C3518F600BB196A /* YYTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E881C3518F600BB196A /* YYTabBarButton.m */; };
+		1CFD2E911C35191900BB196A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E8F1C35191900BB196A /* AppDelegate.m */; };
+		1CFD2E921C35191900BB196A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD2E901C35191900BB196A /* main.m */; };
+		44E364611C4897C10053F72A /* YYMyLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E364601C4897C10053F72A /* YYMyLotteryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		1CFD2E8E1C35191900BB196A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CFD2E8F1C35191900BB196A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1CFD2E901C35191900BB196A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44E364601C4897C10053F72A /* YYMyLotteryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYMyLotteryViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -387,6 +389,7 @@
 			children = (
 				1CFD2E621C34FD7200BB196A /* YYMyLotteryViewController.h */,
 				1CFD2E631C34FD7200BB196A /* YYMyLotteryViewController.m */,
+				44E364601C4897C10053F72A /* YYMyLotteryViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -612,6 +615,7 @@
 				1CD096DC1C3B5E7100943F08 /* YYDiscoveryViewController.storyboard in Resources */,
 				1CB1CD531C3A65FA00E6465A /* YYGuessBgCell.xib in Resources */,
 				1CB1CD4E1C3A65D500E6465A /* YYGuessCell.xib in Resources */,
+				44E364611C4897C10053F72A /* YYMyLotteryViewController.xib in Resources */,
 				1CB1CD5B1C3A665F00E6465A /* YYChooseView.xib in Resources */,
 				1CB1CD5D1C3A780200E6465A /* List.plist in Resources */,
 				1CFD2E191C34F36400BB196A /* Assets.xcassets in Resources */,
