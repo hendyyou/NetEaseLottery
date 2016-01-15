@@ -96,6 +96,7 @@ static NSString *const YYHallFocusCollectionCellID = @"YYHallFocusCollectionCell
         NSInteger middle = (self.imagesArray.count * EnLargeFactor)/2;
         NSIndexPath *index = [NSIndexPath indexPathForItem:middle inSection:0];
         [_collectionView scrollToItemAtIndexPath:index atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
+        
     }
     
 }
@@ -135,18 +136,33 @@ static NSString *const YYHallFocusCollectionCellID = @"YYHallFocusCollectionCell
     _page.currentPage = index % self.imagesArray.count;
 }
 
+
 // 用户将要拖拽scrollView
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
 {
     //停止定时器滚动
     [_timer invalidate];
     _timer = nil;
+    
+    // 用手翻动时也有自定义转场动画的效果
+    [self setTransitionAnimations];
+    
+    
 }
+
 // 用户停止拖拽scrollView
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
 {
     [self startTimer];
 }
+
+// 用户停止滑动的时候
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView
+{
+    self.collectionView.userInteractionEnabled = YES;
+}
+
+
 
 #pragma mark - 私有方法
 - (void)startTimer
@@ -174,12 +190,31 @@ static NSString *const YYHallFocusCollectionCellID = @"YYHallFocusCollectionCell
     if (currentIndex == self.imagesArray.count * EnLargeFactor) { //滚动到最后一张了,下次滚回第一张
         NSIndexPath *indexPath = [NSIndexPath indexPathForItem:0 inSection:0];
         [_collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
+        
+        // 设置转场动画
+        [self setTransitionAnimations];
+        
     }else{
         NSIndexPath *indexPath = [NSIndexPath indexPathForItem:currentIndex inSection:0];
         [_collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionNone animated:YES];
+        
+        // 设置转场动画
+        [self setTransitionAnimations];
     }
 }
 
+// 自定义转场动画 
+- (void)setTransitionAnimations
+{
+    self.collectionView.userInteractionEnabled = NO;
+    
+    CATransition *transition = [CATransition animation];
+    transition.duration = TimerIntervals * 0.3;
+    transition.type = @"cube";
+    transition.subtype = kCATransitionFromRight;
+    transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
+    [self.collectionView.layer addAnimation:transition forKey:kCATransition];
+}
 
 
 @end
