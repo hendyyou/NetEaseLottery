@@ -22,6 +22,7 @@
 }
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     
     self.clipsToBounds = YES;
     self.imageViewBg.clipsToBounds = YES;
